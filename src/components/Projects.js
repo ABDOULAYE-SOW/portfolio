@@ -8,25 +8,25 @@ const Projects = () => {
       id: 1,
       titre: 'Site E-commerce PrestaShop',
       description: 'Développement d\'un site e-commerce complet avec PrestaShop, gestion des produits, panier et système de paiement sécurisé. Interface moderne et responsive.',
-      image: '/images/projet1.jpg', 
+      image: `${process.env.PUBLIC_URL}/images/projet1.jpg`, 
       github: 'https://github.com/abdoulaye-sow/ecommerce-prestashop',
       demo: '#',
       technologies: ['PrestaShop', 'PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript']
     },
     {
       id: 2,
-      titre: 'Site Médical Joomla',
+      titre: 'Site Médical HOGIP',
       description: 'Création d\'un site web dans le domaine médical avec Joomla chez ASI Sénégal. Interface moderne, gestion de contenu optimisée et responsive design.',
-      image: '/images/projet2.jpg',
+      image: `${process.env.PUBLIC_URL}/images/projet2.jpg`,
       github: 'https://github.com/abdoulaye-sow/site-medical-joomla',
       demo: 'https://www.hogip.sn/', 
       technologies: ['Joomla', 'PHP', 'MySQL', 'Bootstrap', 'CSS']
     },
     {
       id: 3,
-      titre: 'Application WEB DiangIA',
+      titre: 'Application Web DiangIA',
       description: 'Développement d\'une application web DiangIA pour l\'éducation des éléve assisté par IA. Interface utilisateur intuitive et intégration de modèles d\'intelligence artificielle.',
-      image: '/images/DiangIA.png',
+      image: `${process.env.PUBLIC_URL}/images/DiangIA.png`,
       github: 'https://github.com/ABDOULAYE-SOW/diangIA',
       demo: 'https://abdoulaye-sow.github.io/diangia.github.io/', 
       technologies: ['Html', 'Css', 'JavaScript', 'Figma']

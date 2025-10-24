@@ -7,7 +7,7 @@ const Skills = () => {
     { nom: 'JavaScript', niveau: '90%', couleur: 'bg-yellow-500' },
     { nom: 'React JS', niveau: '85%', couleur: 'bg-cyan-500' },
     { nom: 'WordPress', niveau: '80%', couleur: 'bg-blue-600' },
-    { nom: 'Laravel', niveau: '75%', couleur: 'bg-red-500' },
+    { nom: 'Word, Excel, PowerPoint', niveau: '75%', couleur: 'bg-red-500' },
     { nom: 'Node.js', niveau: '70%', couleur: 'bg-green-500' },
     { nom: 'Angular', niveau: '65%', couleur: 'bg-red-600' },
     { nom: 'Git', niveau: '80%', couleur: 'bg-gray-500' },
